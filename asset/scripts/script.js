@@ -1,6 +1,6 @@
-const handShakeDiv = document.querySelector("#hand-Shake-Div");
-const inputField = document.querySelector("#input-Field");
-const shakeHandsButton = document.querySelector("#shake-Hands");
+const handShakeDiv = document.querySelector("#hand-shake-div");
+const inputField = document.querySelector("#input-field");
+const shakeHandsButton = document.querySelector("#shake-hands");
 const feedback = document.querySelector("#feed-back");
 
 inputField.addEventListener("focus", () => {
@@ -20,7 +20,7 @@ const displayMessage = (message, state) => {
     }, 1000);
 };
 
-const binaryConverter = number => {
+const binaryConverter = (number) => {
     const binaryNumbers = [];
     while (number > 0) {
         const remainder = number % 2;
