@@ -1,7 +1,7 @@
-const handShakeDiv = document.querySelector("#handShakeDiv");
-const inputField = document.querySelector("#inputField");
-const shakeHandsButton = document.querySelector("#shakeHands");
-const feedback = document.querySelector("#feedback");
+const handShakeDiv = document.querySelector("#hand-Shake-Div");
+const inputField = document.querySelector("#input-Field");
+const shakeHandsButton = document.querySelector("#shake-Hands");
+const feedback = document.querySelector("#feed-back");
 
 inputField.addEventListener("focus", () => {
     while (feedback.firstChild) feedback.removeChild(feedback.firstChild);
