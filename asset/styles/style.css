@@ -1,0 +1,63 @@
+body {
+  background-color: #a5c4c8;
+}
+
+#hand-shake-div {
+  max-width: 500px;
+  margin: 15em auto;
+  text-align: center;
+  padding: 1.5em;
+  background-color: #e2d8d8;
+  box-shadow: 10px 10px 3px #888, -10px -10px 3px #888;
+  border-radius: 40px;
+}
+
+#hand-shake-div.shake {
+  animation: shake 0.82s;
+}
+
+input[type="text"] {
+  width: 20em;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+button {
+  display: block;
+  margin: 1em auto;
+  background-color: #39f;
+  color: #fff;
+  padding: 1em;
+  width: 15em;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover,
+button:active {
+  background-color: #0e83f8;
+  box-shadow: 1px 1px 2px #888, -1px -1px 2px #888;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
